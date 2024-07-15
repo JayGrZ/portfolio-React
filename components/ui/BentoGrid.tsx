@@ -57,7 +57,7 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('motosjairo@gmail.com');
+    navigator.clipboard.writeText('motosjairo12@gmail.com');
 
     setCopied(true);
   }
@@ -83,6 +83,7 @@ export const BentoGridItem = ({
                     />
                 )}
             </div>
+            
             <div className={`absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'}`}>
                 {spareImg && (
                     <img 
