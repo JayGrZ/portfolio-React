@@ -8,10 +8,10 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full object-cover",
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning TailWind CSS",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "React Chat App",
+    des: "ChatApp in real-time",
+    img: "/p1.jpg",
+    iconLists: ["/re.svg", "/firebase.svg"],
+    link: "https://react-chat-firebase-one.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Brainwave App",
+    des: "App website modern dynamic with animations - Full Responsive",
+    img: "/p2.jpg",
+    iconLists: ["/tail.svg", "/re.svg"],
+    link: "https://brainware-phi.vercel.app/",
   },
   {
     id: 3,
@@ -98,9 +98,9 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    img: "/p4.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/three.svg", "/gsap.svg"],
+    link: "https://apple-website-dusky.vercel.app/",
   },
 ];
 
@@ -173,29 +173,30 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Developer Junior",
+    desc: "I have 2 years trying to improve my skills.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Frontend Experience",
+    desc: "My main Framework from frontend is React, Im learning more about it. Vue is my second goal",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Personal Project",
+    // desc: "I have a project to I want to do, while im trying to improve, I wish make my project soon.",
+    desc: "I have a dream project I want to accomplish while I'm trying to fulfill my skills to be better, I want to make it happen soon.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Backend Developer",
+    desc: "Using MongoDB and FireBase as Main technologies",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +206,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: 'https://github.com/JayGrZ'
   },
   {
     id: 3,
     img: "/link.svg",
+    link: 'https://www.linkedin.com/in/jairo-motos-saavedra-67b084198/'
   },
 ];
