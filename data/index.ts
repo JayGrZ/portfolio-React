@@ -92,7 +92,7 @@ export const projects = [
     des: "An application full frontend to improve TaildWindCSS.",
     img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg"],
-    link: "/https://nike-iota-rust.vercel.app/",
+    link: "https://nike-iota-rust.vercel.app/",
   },
   {
     id: 4,
