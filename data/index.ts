@@ -88,11 +88,11 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Nike - TailWindCSS Application",
+    des: "An application full frontend to improve TaildWindCSS.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "/https://nike-iota-rust.vercel.app/",
   },
   {
     id: 4,
